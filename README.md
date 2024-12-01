@@ -2,7 +2,7 @@
 
 A simple yet fun sliding puzzle game developed using Python's Pygame library. The goal of the game is to reach the end tile while avoiding obstacles, scoring points, and avoiding the "Game Over" state. The game incorporates a wrap-around board feature and various tile effects.
 
-
+![Game Screenshot](sc.png)
 
 ## Features
 
