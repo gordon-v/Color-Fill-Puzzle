@@ -123,6 +123,8 @@ def main():
             slideTo = moveToMake
 
         if slideTo:
+            if(gameIsOver):
+                return
             scoreFlag = True
             _x, _y = slideAnimation(mainBoard, hardest_tile, slideTo, 'Use WASD or arrow keys to move.', 8, player_x,
                                     player_y, player_image, score)  # show slide on screen
@@ -417,7 +419,7 @@ def drawTile(tilex, tiley, tile_value, hardest_tile, adjx=0, adjy=0):
         case 10:
             TILECOLOR = GREEN
         case -1: #used tile
-            TILECOLOR = BRIGHTBLUE
+            TILECOLOR = DARKBLUE
         case _:
             TILECOLOR = BLACK
 
